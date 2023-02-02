@@ -1,0 +1,11 @@
+package concatenar;
+
+public class Main {
+    public static void main(String[] args) {
+        String[] coches = {"Ferrari ", "BMW ", "Lamborghini ", "Porsche ","Mclaren ","Aston Martin "};
+       for (int i=0 ;i<coches.length;i++){
+           System.out.println("Elemento número "+i+" "+ coches[i]);
+       }
+
+    }
+}
